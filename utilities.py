@@ -24,7 +24,7 @@ def draw_lattice_configuration(coordinates, length):
     ax.get_yaxis().set_ticklabels([])
 
     ax.plot(coordinates[0] + 0.5, coordinates[1] + 0.5, 'bo', markersize=5, markeredgecolor='none',
-        alpha=0.2)
+        alpha=0.5)
 
     plt.show()
 
